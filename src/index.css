@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======================
+   ANIMATIONS TYPEWRITER
+   ====================== */
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.3s ease-out forwards;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typewriter-text {
+  overflow: hidden;
+  border-right: 0.15em solid #f97316;
+  white-space: nowrap;
+  display: inline-block;
+  animation:
+    typewriter 2s steps(40, end),
+    blink 0.75s step-end infinite;
+}
+
+/* ======================
+   ANIMATIONS AU SCROLL
+   ====================== */
+
+.reveal {
+  opacity: 0;
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+  will-change: opacity, transform;
+}
+
+.reveal-up {
+  transform: translateY(24px);
+}
+
+.reveal-down {
+  transform: translateY(-24px);
+}
+
+.reveal-left {
+  transform: translateX(-24px);
+}
+
+.reveal-right {
+  transform: translateX(24px);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Délais échelonnés — rapides */
+.delay-100 {
+  transition-delay: 50ms;
+}
+
+.delay-200 {
+  transition-delay: 100ms;
+}
+
+.delay-300 {
+  transition-delay: 150ms;
+}
+
+.delay-400 {
+  transition-delay: 200ms;
+}
+
+.delay-500 {
+  transition-delay: 250ms;
+}
+
+.delay-600 {
+  transition-delay: 300ms;
+}
+
+.delay-700 {
+  transition-delay: 350ms;
+}
+
+/* ======================
+   STYLES GLOBAUX
+   ====================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scroll fluide */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus visible pour accessibilité */
+*:focus-visible {
+  outline: 2px solid #f97316;
+  outline-offset: 2px;
+}
