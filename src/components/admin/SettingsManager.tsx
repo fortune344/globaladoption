@@ -311,38 +311,16 @@ const AdminsTab: React.FC<{ showToast: (msg: string, type: 'success' | 'error') 
                                 value={newPassword}
                                 onChange={(e) => setNewPassword(e.target.value)}
                                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white"
-                                placeholder="••••••••••••"
+                                placeholder="Mot de passe"
                                 required
                                 disabled={creating}
-                                minLength={12}
+                                minLength={6}
                             />
-                            {/* Barre de force */}
-                            {newPassword && (
-                                <div className="mt-2 space-y-1">
-                                    <div className="flex gap-1">
-                                        {[1, 2, 3, 4, 5].map((i) => (
-                                            <div
-                                                key={i}
-                                                className={`h-1.5 flex-1 rounded-full transition-colors ${i <= passwordCheck.score
-                                                    ? getPasswordStrengthColor(passwordCheck.score)
-                                                    : 'bg-gray-200'
-                                                    }`}
-                                            />
-                                        ))}
-                                    </div>
-                                    {passwordCheck.message && (
-                                        <p className="text-xs text-red-600">{passwordCheck.message}</p>
-                                    )}
-                                    {passwordCheck.isValid && (
-                                        <p className="text-xs text-green-600 font-medium">✓ Mot de passe sécurisé</p>
-                                    )}
-                                </div>
-                            )}
                         </div>
                         <div className="flex gap-3">
                             <button
                                 type="submit"
-                                disabled={creating || !passwordCheck.isValid}
+                                disabled={creating || !newEmail.trim() || !newPassword.trim()}
                                 className="flex-1 bg-primary-500 hover:bg-primary-600 text-white py-3 rounded-lg font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                             >
                                 {creating ? 'Création en cours...' : 'Créer l\'administrateur'}
