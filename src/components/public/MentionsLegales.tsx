@@ -38,8 +38,8 @@ const MentionsLegales: React.FC = () => {
                         </p>
                         <p>
                             <strong>Email :</strong>{' '}
-                            <a href="mailto:contact@globaladoption.fr" className="text-primary-600 hover:underline">
-                                contact@globaladoption.fr
+                            <a href="mailto:contact@global-adoption.com" className="text-primary-600 hover:underline">
+                                contact@global-adoption.com
                             </a>
                         </p>
                     </div>
@@ -98,8 +98,8 @@ const MentionsLegales: React.FC = () => {
                             <strong>Droits des personnes :</strong> Vous disposez d'un droit d'accès, de
                             rectification, d'effacement, de portabilité et d'opposition au traitement de
                             vos données. Pour exercer ces droits, contactez-nous à{' '}
-                            <a href="mailto:contact@globaladoption.fr" className="text-primary-600 hover:underline">
-                                contact@globaladoption.fr
+                            <a href="mailto:contact@global-adoption.com" className="text-primary-600 hover:underline">
+                                contact@global-adoption.com
                             </a>.
                         </p>
                     </div>

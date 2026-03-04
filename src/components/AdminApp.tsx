@@ -79,7 +79,7 @@ const AdminLoginForm: React.FC = () => {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white/80"
-                            placeholder="admin@globaladoption.fr"
+                            placeholder="admin@global-adoption.com"
                             required
                             disabled={isDisabled}
                             maxLength={100}

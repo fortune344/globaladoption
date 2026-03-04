@@ -99,7 +99,7 @@ const DemandeAdoption: React.FC = () => {
         if (!formData.email.trim()) {
             newErrors.email = 'Email requis';
         } else if (!isValidEmail(formData.email)) {
-            newErrors.email = 'Format d\'email invalide (ex: nom@domaine.com)';
+            newErrors.email = 'Format d\'email invalide (ex: contact@global-adoption.com)';
         }
 
         // Téléphone
@@ -356,7 +356,7 @@ const DemandeAdoption: React.FC = () => {
                                             value={formData.email}
                                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                             className={inputClass('email')}
-                                            placeholder="contact@exemple.com"
+                                            placeholder="contact@global-adoption.com"
                                             disabled={loading}
                                             maxLength={100}
                                         />
