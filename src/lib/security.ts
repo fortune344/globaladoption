@@ -1,5 +1,5 @@
 // lib/security.ts
-// Module central de sécurité — AdoptEase
+// Module central de sécurité — Global Adoption
 
 // ============================================================
 // 1. XSS SANITIZATION (sans dépendance externe)

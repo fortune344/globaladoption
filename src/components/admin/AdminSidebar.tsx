@@ -65,7 +65,7 @@ const AdminSidebar: React.FC = () => {
             <span className="text-white font-bold text-xl">A</span>
           </div>
           <div>
-            <h1 className="text-white font-bold text-lg">AdoptEase</h1>
+            <h1 className="text-white font-bold text-lg">GLOBAL ADOPTION</h1>
             <p className="text-gray-400 text-xs">Panneau Admin</p>
           </div>
         </Link>

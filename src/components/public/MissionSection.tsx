@@ -33,7 +33,7 @@ const MissionSection: React.FC = () => {
                     </h2>
                     <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
                         Les démarches d'adoption peuvent paraître longues et complexes de l'extérieur.
-                        Chez AdoptEase, nous mettons notre expertise au service de votre projet
+                        Chez Global Adoption, nous mettons notre expertise au service de votre projet
                         pour simplifier et sécuriser chaque étape judiciaire et administrative.
                     </p>
                 </div>
