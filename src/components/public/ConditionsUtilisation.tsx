@@ -26,7 +26,7 @@ const ConditionsUtilisation: React.FC = () => {
                     </h2>
                     <div className="space-y-3 text-gray-600">
                         <p>
-                            Le site a pour objet de fournir des informations concernant l'ensemble des activités de GLOBAL ADOPTION, notamment nos services d'accompagnement à l'adoption internationale et nos coordonnées.
+                            Le site a pour objet de fournir des informations concernant l'ensemble des activités de GLOBAL ADOPTION, notamment nos services d'accompagnement à l'adoption et nos coordonnées.
                         </p>
                         <p>
                             L'accès au site est gratuit pour tout utilisateur disposant d'un accès à internet. Tous les coûts afférents à l'accès (matériel informatique, logiciels, connexion internet) sont à la charge exclusive de l'utilisateur.

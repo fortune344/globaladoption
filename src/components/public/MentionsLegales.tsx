@@ -65,7 +65,7 @@ const MentionsLegales: React.FC = () => {
                             </li>
                             <li>
                                 <strong>Convention de La Haye du 29 mai 1993</strong> sur la protection
-                                des enfants et la coopération en matière d'adoption internationale.
+                                des enfants et la coopération en matière d'adoption.
                             </li>
                         </ul>
                     </div>

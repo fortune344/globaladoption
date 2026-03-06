@@ -15,7 +15,7 @@ const PolitiqueConfidentialite: React.FC = () => {
                         La présente Politique de Confidentialité a pour but de vous informer sur la manière dont GLOBAL ADOPTION (« nous », « notre », ou « nos ») collecte, utilise, et protège vos données personnelles lorsque vous naviguez sur notre site internet et utilisez nos services.
                     </p>
                     <p className="text-gray-600">
-                        La protection de votre vie privée est une priorité absolue pour notre organisme, particulièrement dans le cadre sensible de l'adoption internationale.
+                        La protection de votre vie privée est une priorité absolue pour notre organisme, particulièrement dans le cadre sensible de l'adoption.
                     </p>
                 </div>
 
@@ -29,7 +29,7 @@ const PolitiqueConfidentialite: React.FC = () => {
                         <ul className="list-disc list-inside space-y-2 ml-4">
                             <li><strong>Données d'identification :</strong> Nom, prénom, civilité, date de naissance.</li>
                             <li><strong>Données de contact :</strong> Adresse postale, adresse e-mail, numéros de téléphone.</li>
-                            <li><strong>Données relatives au projet d'adoption :</strong> Situation familiale, pays envisagé, motivations (via notre formulaire de demande).</li>
+                            <li><strong>Données relatives au projet d'adoption :</strong> Situation familiale, motivations (via notre formulaire de demande).</li>
                             <li><strong>Données de navigation :</strong> Adresse IP, type de navigateur, pages visitées (via les cookies fonctionnels).</li>
                         </ul>
                     </div>
