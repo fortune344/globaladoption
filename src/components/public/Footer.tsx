@@ -15,9 +15,8 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="text-xl font-bold mb-4 text-primary-400">GLOBAL ADOPTION</h3>
                         <p className="text-gray-400 text-sm leading-relaxed">
-                            Forte de plus de 15 années d'expertise, notre agence accompagne les
-                            familles dans la concrétisation de leur projet d'adoption, en garantissant un
-                            parcours rigoureux, éthique et sécurisé.
+                            Notre agence accompagne les familles dans la concrétisation de leur projet
+                            d'adoption, en garantissant un parcours rigoureux, éthique et sécurisé.
                         </p>
                     </div>
 
