@@ -19,10 +19,10 @@ const Hero: React.FC = () => {
         navigate('/demande');
     };
 
-    const scrollToGallery = () => {
-        const gallerySection = document.getElementById('gallery');
-        if (gallerySection) {
-            gallerySection.scrollIntoView({ behavior: 'smooth' });
+    const scrollToAbout = () => {
+        const aboutSection = document.getElementById('about');
+        if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
         }
     };
 
@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
                         Prendre rendez-vous
                     </button>
                     <button
-                        onClick={scrollToGallery}
+                        onClick={scrollToAbout}
                         className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white px-8 py-4 rounded-full font-semibold text-lg border-2 border-white transition-all hover:scale-105"
                     >
                         En savoir plus

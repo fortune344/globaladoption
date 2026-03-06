@@ -4,7 +4,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { SiteSettingsProvider } from '../contexts/SiteSettingsContext';
 import Navbar from './public/Navbar';
 import Hero from './public/Hero';
-import MissionSection from './public/MissionSection';
+import AboutSection from './public/AboutSection';
 import TimelineSection from './public/TimelineSection';
 import GallerySection from './public/GallerySection';
 import TestimonialsSection from './public/TestimonialsSection';
@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
         <>
             <Navbar />
             <Hero />
-            <MissionSection />
+            <AboutSection />
             <TimelineSection />
             <GallerySection />
             <TestimonialsSection />

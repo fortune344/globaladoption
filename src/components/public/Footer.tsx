@@ -25,9 +25,9 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="text-lg font-bold mb-4">Liens rapides</h3>
                         <ul className="space-y-2">
-                            {['Accueil', 'Galerie', 'Témoignages', 'Contact'].map((label) => {
+                            {['Accueil', 'À propos', 'Témoignages', 'Contact'].map((label) => {
                                 const href = label === 'Accueil' ? '#hero' :
-                                    label === 'Galerie' ? '#gallery' :
+                                    label === 'À propos' ? '#about' :
                                         label === 'Témoignages' ? '#testimonials' : '#contact';
                                 return (
                                     <li key={label}>

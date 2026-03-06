@@ -92,12 +92,6 @@ const TestimonialsSection: React.FC = () => {
                                         <h3 className="font-semibold text-gray-800 text-lg">
                                             {testimonial.name}
                                         </h3>
-                                        <p className="text-sm text-gray-500">
-                                            {new Date(testimonial.created_at).toLocaleDateString('fr-FR', {
-                                                year: 'numeric',
-                                                month: 'long'
-                                            })}
-                                        </p>
                                     </div>
                                 </div>
                                 <p className="text-gray-600 italic leading-relaxed">
