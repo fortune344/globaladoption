@@ -11,6 +11,8 @@ import TestimonialsSection from './public/TestimonialsSection';
 import CTASection from './public/CTASection';
 import Footer from './public/Footer';
 import MentionsLegales from './public/MentionsLegales';
+import PolitiqueConfidentialite from './public/PolitiqueConfidentialite';
+import ConditionsUtilisation from './public/ConditionsUtilisation';
 import DemandeAdoption from './public/DemandeAdoption';
 
 const HomePage: React.FC = () => {
@@ -52,6 +54,16 @@ const PublicAppContent: React.FC = () => {
             <Route path="/mentions-legales" element={
                 <PageLayout>
                     <MentionsLegales />
+                </PageLayout>
+            } />
+            <Route path="/politique-confidentialite" element={
+                <PageLayout>
+                    <PolitiqueConfidentialite />
+                </PageLayout>
+            } />
+            <Route path="/conditions-utilisation" element={
+                <PageLayout>
+                    <ConditionsUtilisation />
                 </PageLayout>
             } />
             <Route path="*" element={<Navigate to="/" />} />

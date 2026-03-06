@@ -15,8 +15,9 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="text-xl font-bold mb-4 text-primary-400">GLOBAL ADOPTION</h3>
                         <p className="text-gray-400 text-sm leading-relaxed">
-                            Organisme autorisé pour l'adoption, nous facilitons votre parcours
-                            d'adoption dans un cadre rigoureux, professionnel et sécurisé.
+                            Forte de plus de 15 années d'expertise, notre agence accompagne les
+                            familles dans la concrétisation de leur projet d'adoption, en garantissant un
+                            parcours rigoureux, éthique et sécurisé.
                         </p>
                     </div>
 
@@ -66,7 +67,7 @@ const Footer: React.FC = () => {
                                 <svg className="w-4 h-4 flex-shrink-0 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                 </svg>
-                                <a href="https://wa.me/33644714318" className="hover:text-white transition-colors">
+                                <a href="https://wa.me/33644714318" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                                     WhatsApp : +33 6 44 71 43 18
                                 </a>
                             </li>
@@ -74,7 +75,7 @@ const Footer: React.FC = () => {
                                 <svg className="w-4 h-4 flex-shrink-0 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                 </svg>
-                                <a href="mailto:contact@global-adoption.com" className="hover:text-white transition-colors">
+                                <a href="mailto:contact@global-adoption.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                                     contact@global-adoption.com
                                 </a>
                             </li>
@@ -91,12 +92,12 @@ const Footer: React.FC = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/mentions-legales" className="text-gray-400 hover:text-white transition-colors text-sm">
+                                <Link to="/politique-confidentialite" className="text-gray-400 hover:text-white transition-colors text-sm">
                                     Politique de confidentialité
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/mentions-legales" className="text-gray-400 hover:text-white transition-colors text-sm">
+                                <Link to="/conditions-utilisation" className="text-gray-400 hover:text-white transition-colors text-sm">
                                     Conditions d'utilisation
                                 </Link>
                             </li>
